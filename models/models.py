@@ -8,5 +8,4 @@ class sales_jeff(models.Model):
 
     clientname = fields.Char('Client Name', required=True)
    
-    # sudo docker run -v /home/jeff/Desktop/custom_modules:/mnt/extra-addons -p 8069:8069 --name odoo --link db:db -t odoo
 
